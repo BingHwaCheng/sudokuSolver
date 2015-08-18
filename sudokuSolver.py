@@ -23,8 +23,8 @@ class sudokuSolver:
         for i in range(9):
             for j in range(9):
                 self.curr_state[i][j] = init_state[i][j]
-                print self.curr_state[i][j],
-            print
+                #print self.curr_state[i][j],
+            #print
     
     # --------------------------------------------------------
     # Backtracking calls
